@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .container{
+    width: 75%;
+    margin: 0 auto;
+} */
+
+/* nav bar css */
+header nav{
+    background: #444444;
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    width: 100px;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+}
+header nav{
+    padding: 20px 0;
+}
+header nav .logo{
+    width: 120px;
+}
+#menus ul{
+    list-style: none;
+    display: flex;
+}
+#menus ul li{
+    margin-right: 20px;
+}
+#menus ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+#menus ul li a:hover{
+    color: blue;
+}
+
+/* banner section css */
+#banner{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/background.png"), linear-gradient(#111010, #0f0a0a, #140a0a);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .banner_image_div img{
+    width: 300px;
+}
+#banner .inner_banner{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 190px;
+}
+#banner .content_div{
+    color: #fff;
+    width: 40%;
+}
+#banner .content_div h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    word-spacing: 10px;
+}
+#banner .content_div p{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+#banner .content_div button, #about .about_text_content button{
+    margin-top: 20px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: rgb(255, 76, 45);
+    border-radius: 5px;
+    transition: .5s;
+    border: none;
+}
+#banner .content_div button:hover, #about .about_text_content button:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+/* about us section css */
+#about, #services{
+    padding: 30px 0;
+}
+.aboutImage{
+    width: 300px;
+    margin-top: 30px;
+}
+#about h2, #services .sheader{
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+#about .about_content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+#about .about_text_content{
+    margin-top: 40px;
+    width: 30%;
+}
+#about .about_text_content h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#about .about_text_content .sp{
+    margin-bottom: 20px;
+}
+#about .about_text_content button{
+    padding: 12px 20px;
+}
+/* our services are css */
+#services{
+    background: #232323;
+}
+#services .sheader{
+    color: #fff;
+    margin-bottom: 30px;
+}
+#services .div_row{
+    display: flex;
+    justify-content: space-around;
+}
+#services .div_row .divflex .spic{
+    width: 70px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+#services .div_row .divflex {
+    width: 250px;
+    background: #121212;
+    color: #fff;
+    padding: 30px 10px;
+    box-shadow: rgba(255, 255, 255, 0.712) 0px 22px 70px 4px;
+    border-radius: 14px;
+}
+#services .div_row .divflex h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#services .div_row .divflex p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+#services .div_row .divflex button{
+    background: #1C1B1B;
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    margin-left: 83px;
+    transition: .5s;
+    border-radius: 5px;
+}
+#services .div_row .divflex button:hover{
+    padding: 8px 16px;
+    color: #000;
+    background: #ccc;
+    cursor: pointer;
+}
