@@ -43,7 +43,7 @@ header nav .logo{
     transition: 0.5s;
 }
 #menus ul li a:hover{
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 
 /* banner section css */
@@ -126,6 +126,7 @@ header nav .logo{
 /* our services are css */
 #services{
     background: #232323;
+    padding: 80px;
 }
 #services .sheader{
     color: #fff;
@@ -171,4 +172,61 @@ header nav .logo{
     color: #000;
     background: #ccc;
     cursor: pointer;
+}
+
+/* footer area css */
+footer{
+    padding: 80px 100px 15px;
+    background: linear-gradient(#050505, #222222);
+}
+#footerLogo{
+    width: 150px;
+}
+footer .main_footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+footer .main_footer .div_footer{
+    width: 25%;
+    color: #fff;
+}
+footer .main_footer .div_footer:nth-child(2), footer .main_footer .div_footer:nth-child(3){
+    width: 15%;
+}
+footer .main_footer .div_footer:nth-child(2) h3, footer .main_footer .div_footer:nth-child(3) h3, footer .main_footer .div_footer:nth-child(4) h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+footer .main_footer .div_footer:nth-child(1) p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+footer .main_footer .div_footer:nth-child(1){
+    margin-right: 40px;
+}
+footer .main_footer .div_footer:nth-child(2) ul li, footer .main_footer .div_footer:nth-child(3) ul li{
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 8px;
+}
+footer .main_footer .div_footer:nth-child(2) ul li a, footer .main_footer .div_footer:nth-child(3) ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+footer .main_footer .div_footer:nth-child(2) ul li a:hover, footer .main_footer .div_footer:nth-child(3) ul li a:hover{
+    color: rgb(0, 0, 255);
+}
+footer .main_footer .div_footer:last-child h4, footer .main_footer .div_footer:last-child address, footer .main_footer .div_footer:last-child p{
+    margin-bottom: 10px;
+}
+footer .copywrite p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
 }
